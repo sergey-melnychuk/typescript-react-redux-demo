@@ -1,0 +1,42 @@
+React Training
+
+Day 1:
+
+npm i -g create-react-app
+// -g installs globally - and fixes the version
+
+npx create-react-app app-name --typescript
+
+package-lock.json
+// Contains resolved dependency graph.
+// Can be committed to the repository.
+
+// full clean:
+rm package-lock.json
+rm -rf node_modules/
+
+github.com/ducin_public/itcorpo-api
+// mock RESTful API
+
+JavaScript's 'export' is effectively a singleton.
+Thus no explicit DI is required!
+
+<break>
+
+npm i axios @types/axios
+// alternative to fetch for API calls
+
+Day 2:
+
+// See code
+
+npm i redux react-redux redux-devtools-extension
+npm i @types/react-redux
+npm i redux-thunk
+
+[...array] // unfold from array to arguments:
+const a = [1,2,3]
+f(a) - calls f with single argument a
+f(...a) - calls f with 3 arguments (items in a)
+
+
